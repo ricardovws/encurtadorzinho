@@ -8,10 +8,10 @@ namespace encurtadorzinho.Controllers
     [Route("/")]
     public class UrlController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<UrlController> _logger;
         private IUrlShortnerService _urlShortnerService;
 
-        public UrlController(ILogger<WeatherForecastController> logger, IUrlShortnerService urlShortnerService)
+        public UrlController(ILogger<UrlController> logger, IUrlShortnerService urlShortnerService)
         {
             _logger = logger;
             _urlShortnerService = urlShortnerService;
