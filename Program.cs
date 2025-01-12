@@ -1,5 +1,4 @@
 using encurtadorzinho.Repositories;
-using encurtadorzinho.Responses;
 using encurtadorzinho.Services;
 
 var builder = WebApplication.CreateBuilder(args);
